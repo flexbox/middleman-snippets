@@ -1,0 +1,23 @@
+---
+/ Shows a list of DC heroes, pulled from a data file named `heroes.yml` in `/data` folder with the following contents:
+
+-
+  name: Batman
+  image: picture-batman.jpg
+  url: http://batman.com
+-
+  name: Robin
+  image: picture-robin.jpg
+  url: http://robin.com
+-
+  name: The joker
+  url: http://thejoker.com
+
+---
+
+ul
+  - data.heroes.each_with_index do |hero|
+    li
+      - if hero['image'].present?
+        = image_tag hero.image, alt: "Picture of #{hero.name}"
+      = link_to hero.url, hero.name, title: 'hero.name'

@@ -1,0 +1,6 @@
+ul
+  - page_articles.each_with_index do |article, i|
+    li
+      = link_to article, article.title
+      time pubdate=""
+        = article.date.strftime('%B %-d, %Y')
