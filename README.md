@@ -10,7 +10,7 @@ I’m a big fan of Middleman. I’ve built [my website](http://davidl.fr) on it,
 
 ### Pages
 
-- [Navigation with active class](pages-nav.html) for linking pages with the `layout: page`.
+- [Navigation with active class](pages-nav.rb) with a custom helper `active_link_to`.
 
 ### Layout
 
