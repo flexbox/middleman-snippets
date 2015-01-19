@@ -1,12 +1,14 @@
 # Middleman snippets
 
-I’m a big fan of Middleman. I’ve built [my website](http://davidl.fr) on it, as well as [foundation boilerplate](https://github.com/flexbox/foundation-boilerplate) and [advices for good scalable css](http://guidecss.fr). This repository serves as a library of commonly used Middleman snippets.
+I’m a big fan of Middleman. I’ve built [my website](http://davidl.fr) on it, as well as [foundation boilerplate](https://github.com/flexbox/foundation-boilerplate) and [advices for good scalable css](http://guidecss.fr). HTML files use [slim template language](https://github.com/slim-template/slim).
+
+This repository serves as a library of commonly used Middleman snippets.
 
 ## Contents
 
 ### Posts
 
-- [List of posts](posts-list.html) for archive or condensed index pages.
+- [List of posts](posts-list.html.slim) for archive or condensed index pages.
 
 ### Pages
 
@@ -14,20 +16,20 @@ I’m a big fan of Middleman. I’ve built [my website](http://davidl.fr) on it,
 
 ### Layout
 
-- [Page title with site title fallback](layout-page-title.html)
+- [Page title with site title fallback](layout-page-title.html.slim)
 
 ### Data
 
-- [List of items](data-list.html) from a particular `.yml` file in the `/data` directory.
+- [List of items](data-list.html.slim) from a particular `.yml` file in the `/data` directory.
 
 ### Time
 
 - [Current year](time-current-year.html.slim) for things like copyright.
 - [Current date](time-month-day-year.html.slim) as full month, day, and year.
 
-## Contributing
+## Get involved
 
-Have a suggestion or bug fix? Open a pull request or issue. I'd be happy to have more snippets here. Update the list above and include the snippet with a clear file name and the simplest HTML possible.
+Have a suggestion or bug fix? Check the [editorconfig](.editorconfig). Open a pull request or issue. I'd be happy to have more snippets here. Update the list above and include the snippet with a clear file name and the simplest SLIM / HTML possible.
 
 ## Contribute
 
