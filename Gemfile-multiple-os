@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gem 'middleman'
+(...)
+
+if /linux|bsd/ =~ RUBY_PLATFORM
+    gem 'execjs'
+    gem 'therubyracer'
+    if /linux/ =~ RUBY_PLATFORM
+        gem 'rb-inotify'
+    end
+end
