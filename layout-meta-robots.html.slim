@@ -1,0 +1,18 @@
+/ in source/layout ...
+
+- if current_page.data.index_options == 'no_follow'
+  meta name="robots" content="noindex, nofollow"
+- else
+  meta name="robots" content="index, follow"
+
+/ ... in the start of the page
+
+---
+title: MySite – 404 – page not found
+index_options: no_follow
+---
+
+div class="m-layout"
+  div class="m-layout--sidebar"
+    (...)
+  div class="m-layout--content"
