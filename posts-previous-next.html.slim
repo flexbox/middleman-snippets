@@ -1,0 +1,9 @@
+ul
+  li
+    = prev_article = current_article.previous_article
+      - if prev_article
+        = link_to prev_article.title, prev_article.url, rel: 'prev', title: "Previous article: #{prev_article.title}"
+  li
+    = next_article = current_article.next_article
+      - if next_article
+        = link_to next_article.title, next_article.url, rel: 'next', title: "Next article: #{next_article.title}"

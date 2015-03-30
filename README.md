@@ -6,9 +6,10 @@ This repository serves as a library of commonly used Middleman snippets.
 
 ## Contents
 
-### Posts
+### Blog
 
 - [List of posts](posts-list.html.slim) for archive or condensed index pages.
+- [navigation with previous / next](posts-navigation.html.slim) article on post page.
 
 ### Pages
 
