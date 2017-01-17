@@ -11,10 +11,6 @@ This repository serves as a library of commonly used Middleman snippets.
 - [List of posts](posts-list.html.slim) for archive or condensed index pages.
 - [navigation with previous / next](posts-navigation.html.slim) article on post page.
 
-### Pages
-
-- [Navigation with active class](pages-nav.rb) with a custom helper `active_link_to`.
-
 ### Layout
 
 - [Page title with site title fallback](layout-page-title.html.slim)
@@ -28,13 +24,15 @@ This repository serves as a library of commonly used Middleman snippets.
 - [Current year](time-current-year.html.slim) for things like copyright.
 - [Current date](time-month-day-year.html.slim) as full month, day, and year.
 
-## Get involved
+## Helpers
 
-Have a suggestion or bug fix? Check the [editorconfig](.editorconfig). Open a pull request or issue. I'd be happy to have more snippets here. Update the list above and include the snippet with a clear file name and the simplest SLIM / HTML possible.
+### Pages
 
-## Contribute
+- [Navigation with active class](pages_nav_helper.rb) with a custom helper `active_link_to`.
 
-If you like the middleman project feel free to [contribute](https://plasso.co/s/4dXbHBorC3).
+### Icons
+
+- [Accessibility-minded icons](font_awesome_helper.rb) with Font Awesome.
 
 ## License
 
